@@ -43,9 +43,9 @@ RDB, 그중 MySQL만 쭉 사용해 오다 처음으로 NoSQL DB를 사용할 일
 
 ### 🔎 Neo4j 노드와 관계 예시
 
-\`\`\`
+```
 (Alice)-[:FRIENDS_WITH]->(Bob)
-\`\`\`
+```
 
 - \`Alice\`, \`Bob\`: 노드 (개체)
 - \`FRIENDS_WITH\`: 관계 (두 개체 간의 연결)
