@@ -32,9 +32,6 @@ print(example2)
 1973-05-19 13:37:37.920000
 ```
 
-example1: 1234.5678을 나노초 단위로 해석하여 1970-01-01에서 시작되는 시간을 출력합니다.
-
-example2: 1234.5678을 일 단위로 해석하여 1973-05-19의 시간을 출력합니다.
 
 ---
 
@@ -60,10 +57,6 @@ print(example2)
 2023-11-01 12:00:00
 DatetimeIndex(['2023-01-01', '2023-10-31'], dtype='datetime64[ns]', freq=None)
 ```
-
-example1: 2023-11-1 12는 단일 날짜로 변환됩니다.
-
-example2: 여러 날짜들을 DatetimeIndex 객체로 변환하여 다룰 수 있습니다.
 
 ---
 
@@ -113,12 +106,6 @@ print(type(example1))
 <class 'pandas._libs.tslibs.period.Period'>
 ```
 
-example1: 2023-11-1은 기본적으로 일 단위(D)로 해석됩니다.
-
-example2: 2023-11-1은 월 단위(M)로 해석되어 2023-11로 출력됩니다.
-
-example3: 2023-11-1은 연 단위(Y)로 해석되어 2023으로 출력됩니다.
-
 ---
 
 ### 예시 5: PeriodRange 생성하기
@@ -148,9 +135,3 @@ PeriodIndex(['2023-01', '2023-02', ..., '2023-11'], dtype='period[M]', freq='M')
 PeriodIndex(['2022', '2023'], dtype='period[Y]', freq='Y')
 <class 'pandas._libs.tslibs.period.Period'>
 ```
-
-example1: 2023년 1월부터 11월까지 월 단위로 생성된 기간들입니다.
-
-example2: 월 단위(M)로 2023년 1월부터 11월까지 생성됩니다.
-
-example3: 연 단위(Y)로 2022년과 2023년의 기간이 생성됩니다.
